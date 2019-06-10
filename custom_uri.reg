@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\youtubedl]
+"URL Protocol"=""
+@="URL:Rtsp Streaming Protocol"
+"DefaultIcon"="\"C:\\Users\\user\\scoop\\shims\\youtube-dl.exe\",1"
+
+[HKEY_CLASSES_ROOT\youtubedl\shell]
+
+[HKEY_CLASSES_ROOT\youtubedl\shell\open]
+
+[HKEY_CLASSES_ROOT\youtubedl\shell\open\command]
+@="powershell . \"C:\\Users\\user\\Documents\\youtube-upload.ps1 -url \"%1\""
